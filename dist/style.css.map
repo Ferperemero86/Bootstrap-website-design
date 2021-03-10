@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../styles/style.scss",
+        "../styles/_navigation.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
