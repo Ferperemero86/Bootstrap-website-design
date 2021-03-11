@@ -102,7 +102,7 @@ button:focus {
 
 @media (min-width: 48.0625rem) {
   .team-columns .item p {
-    height: 80px;
+    height: 3.125rem;
     overflow: hidden;
   }
 }
