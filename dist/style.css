@@ -1,1 +1,72 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  font-size: 100%;
+  box-sizing: border-box;
+  height: 200vh;
+}
+
+.wrapper {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  width: 50%;
+  text-align: center;
+  border-color: #222;
+}
+
+.navbar {
+  background-color: #fafafa;
+  margin: 0 0.9375rem;
+}
+
+.navbar .inner-container .main-nav {
+  position: absolute;
+  top: 4.5rem;
+  left: 0;
+  color: #000;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  text-align: center;
+  display: none;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.navbar .inner-container .main-nav li {
+  padding-bottom: 0.5rem;
+}
+
+.navbar .inner-container .desktop-nav li:not(:last-child) {
+  padding-right: 1rem;
+}
+
+.navbar .inner-container .desktop-nav li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#slides {
+  text-align: center;
+  width: 100%;
+}
+
+#slides .carousel-item {
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+    display: flex;
+  }
+}
+/*# sourceMappingURL=style.css.map */

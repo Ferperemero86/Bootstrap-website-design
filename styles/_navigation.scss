@@ -1,0 +1,39 @@
+.navbar {
+    background-color: hsl(0, 0, 98%);
+    margin: 0 0.9375rem;
+
+    .inner-container {
+
+        .main-nav {
+            position: absolute;
+            top: 4.5rem;
+            left: 0;
+            color: #000;
+            background-color: #fff;
+            display: block;
+            width: 100%;
+            text-align: center;
+            display: none;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+    
+    
+            li {
+                padding-bottom: 0.5rem;
+            }
+          
+        }
+    
+        .desktop-nav {
+    
+            li:not(:last-child) {
+                padding-right: 1rem;
+            }
+    
+            li {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+        }
+    }
+}
