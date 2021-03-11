@@ -4,6 +4,11 @@ body {
   height: 200vh;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper {
   max-width: 75rem;
   margin: 0 auto;
@@ -15,6 +20,7 @@ ul {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 button:focus {
@@ -54,8 +60,19 @@ button:focus {
 }
 
 .navbar .inner-container .desktop-nav li {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
+}
+
+.navbar .inner-container .desktop-nav li a {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  color: #222;
+}
+
+.navbar .inner-container .d-flex.desktop-nav-list {
+  margin: 0;
+  padding: 0;
 }
 
 #slides {
