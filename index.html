@@ -30,7 +30,7 @@
                         <li class="nav-item"><a href="#" class="nav-link">Connect</a></li>
                     </ul>
                 </div>
-                <div class="desktop-nav d-sm-none d-lg-block">
+                <div class="desktop-nav d-none d-lg-block">
                     <ul class="d-flex desktop-nav-list">
                         <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">About</a></li>
@@ -43,7 +43,7 @@
         </nav>
 
         <!-- Image Slider -->
-        <div id="slides" class="container-fluid carousel slide" data-ride="carousel">
+        <header id="slides" class="container-fluid carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">
                 <li data-target="#slides" data-slide-to="0" class="active"></li>
                 <li data-target="#slides" data-slide-to="1"></li>
@@ -56,7 +56,7 @@
                         <h1 class="display-2">Bootstrap</h1>
                         <h3>Complete Website Layout</h3>
                         <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
-                        <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                        <button type="button" class="btn btn-primary btn-lg">GET STARTED</button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -66,7 +66,7 @@
                     <img src="img/background3.png">
                 </div>
             </div>
-        </div>
+        </header>
 
         <!-- Jumbotron -->
         <div class="container-fluid">
@@ -95,7 +95,7 @@
         </div>
 
         <!-- Three Column Section -->
-        <div class="container-fluid padding">
+        <div class="three-column container-fluid padding">
             <div class="row text-center">
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <i class="fas fa-code"></i>
@@ -147,7 +147,7 @@
             <h2 class="text-center">Meet The Team</h2>
             <hr class="display-4">
             <div class="row">
-                <div class="mb-4 mb-md-0 mt-4 col-md-4 p--sm item">
+                <div class="mb-4 mb-md-0 mt-4 col-md-4 item">
                     <img src="img/team1.png" class="img-fluid image mb-4 mb-md-2">
                     <div class="text">
                         <h3>Jhon Doe</h3>
@@ -155,7 +155,7 @@
                         <a class="btn btn-secondary">See Profile</a>
                     </div>
                 </div>
-                <div class="mb-4 mb-md-0 mt-4 col-md-4 p--sm item">
+                <div class="mb-4 mb-md-0 mt-4 col-md-4 item">
                     <img src="img/team2.png" class="img-fluid image mb-4 mb-md-2">
                     <div class="text">
                         <h3>Mary Jo</h3>
@@ -163,7 +163,7 @@
                         <a class="btn btn-secondary">See Profile</a>
                     </div>
                 </div>
-                <div class="mb-4 mb-md-0 mt-4 col-md-4 p--sm item">
+                <div class="mb-4 mb-md-0 mt-4 col-md-4 item">
                     <img src="img/team3.png" class="img-fluid image mb-4 mb-md-2">
                     <div class="text">
                         <h3>Phil Ho</h3>
@@ -190,18 +190,56 @@
                 </div>
             </div>
         </div>
+        <hr class="display-4">
 
         <!-- Connect -->
         <div class="connect container-fluid padding">
             <h2 class="text-center">Connect</h2>
             <div class="d-flex col-12 justify-content-center padding">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-google-plus-g"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-youtube"></i>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
+
+        <!-- Footer -->
+        <footer class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-12 col-md-4">
+                    <img src="img/w3newbie.png" class="img-fluid">
+                    <hr class="display-4">
+                    <ul>
+                        <li><p>555-555-5555</p></li>
+                        <li><p>email@myemail.com</p></li>
+                        <li><p>100 Street Name</p></li>
+                        <li><p>City, state, 0000</p></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <hr class="display-4">
+                    <h3>Our Hours</h3>
+                    <hr class="display-4">
+                    <ul>
+                        <li><p>Monday: 9am - 5pm</p></li>
+                        <li><p>Saturday: 10am - 4pm</p></li>
+                        <li><p>Sunday: closed</p></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <hr class="display-4">
+                    <h3>Service Area</h3>
+                    <hr class="display-4">
+                    <ul>
+                        <li><p>City, state, 0000</p></li>
+                        <li><p>City, state, 0000</p></li>
+                        <li><p>City, state, 0000</p></li>
+                        <li><p>City, state, 0000</p></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
 
 
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

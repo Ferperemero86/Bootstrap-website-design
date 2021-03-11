@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
     font-size: 100%;
     box-sizing: border-box;
-    height: 500vh;
+    font-family: "Poppins";
+    color: #222;
 }
 
 * {
@@ -18,13 +21,28 @@ ul {
     list-style: none;
 }
 
-a {
+.btn-primary {
+    background-color: $lightPurple;
+    border: 1px solid $purple;
+}
+
+.btn-primary:hover {
+    background-color: $purple;
+    border: 1px solid $purple;
+}
+
+a, button {
     text-decoration: none;
     cursor: pointer;
 }
 
 button:focus {
     outline: none;
+}
+
+hr {
+    width: 50%;
+    margin: 3rem auto;
 }
 
 

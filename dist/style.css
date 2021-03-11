@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   font-size: 100%;
   box-sizing: border-box;
-  height: 500vh;
+  font-family: "Poppins";
+  color: #222;
 }
 
 * {
@@ -18,13 +20,28 @@ ul {
   list-style: none;
 }
 
-a {
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #563d7c;
+}
+
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+a, button {
   text-decoration: none;
   cursor: pointer;
 }
 
 button:focus {
   outline: none;
+}
+
+hr {
+  width: 50%;
+  margin: 3rem auto;
 }
 
 .padding {
@@ -39,6 +56,7 @@ button:focus {
 .navbar {
   background-color: #fafafa;
   margin: 0 0.9375rem;
+  padding: .8rem;
 }
 
 .navbar .inner-container .main-nav {
@@ -71,6 +89,12 @@ button:focus {
   padding: 0;
   margin: 0;
   color: #222;
+  font-size: 1.1rem;
+}
+
+.navbar .inner-container .desktop-nav li a:hover {
+  color: #e0e0e0;
+  transition: color 0.2s ease-in-out;
 }
 
 .navbar .inner-container .d-flex.desktop-nav-list {
@@ -87,17 +111,72 @@ button:focus {
   justify-content: center;
 }
 
-@media (min-width: 992px) {
+#slides .carousel-item .carousel-caption {
+  transform: translateY(-50%);
+  top: 50%;
+  text-align: center;
+}
+
+#slides .carousel-item .carousel-caption h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+@media (min-width: 62rem) {
+  #slides .carousel-item .carousel-caption h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 62rem) {
+  #slides .carousel-item .carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+  }
+}
+
+.jumbotron {
+  border-radius: 0;
+}
+
+@media (min-width: 62rem) {
   .jumbotron {
     display: flex;
   }
 }
 
+.three-column i {
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+.three-column i.fa-code {
+  color: #e54d26;
+}
+
+.three-column i.fa-bold {
+  color: #563d7c;
+}
+
+.three-column i.fa-css3 {
+  color: #2163af;
+}
+
 .fixed-background {
-  background: url("../img/mac.png") no-repeat center/cover;
+  background: url("../img/mac.png") no-repeat top center;
+  background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 400px;
+  height: 300px;
+}
+
+@media (min-width: 62rem) {
+  .fixed-background {
+    height: 500px;
+  }
 }
 
 @media (min-width: 48.0625rem) {
@@ -107,23 +186,63 @@ button:focus {
   }
 }
 
-.connect i {
+.connect a {
   font-size: 2rem;
 }
 
-.connect i:not(:last-child) {
+.connect a .fa-facebook {
+  color: #3b5998;
+}
+
+.connect a .fa-twitter {
+  color: #00aced;
+}
+
+.connect a .fa-google-plus-g {
+  color: #dd4b39;
+}
+
+.connect a .fa-instagram {
+  color: #517fa4;
+}
+
+.connect a .fa-youtube {
+  color: #bb0000;
+}
+
+.connect a i:hover {
+  color: #d5d5d5;
+}
+
+.connect a:not(:last-child) {
   padding-right: 1rem;
 }
 
 @media (min-width: 48.0625rem) {
-  .connect i:not(:last-child) {
+  .connect a:not(:last-child) {
     padding-right: 4rem;
   }
 }
 
 @media (min-width: 48.0625rem) {
-  .connect i {
+  .connect a {
     font-size: 4rem;
   }
+}
+
+footer {
+  text-align: center;
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+}
+
+footer img {
+  padding-top: .2rem;
+}
+
+footer hr {
+  width: 100%;
+  margin: .6rem;
+  border: 1px solid #d5d5d5;
 }
 /*# sourceMappingURL=style.css.map */
