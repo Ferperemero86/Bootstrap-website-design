@@ -1,7 +1,7 @@
 body {
   font-size: 100%;
   box-sizing: border-box;
-  height: 200vh;
+  height: 500vh;
 }
 
 * {
@@ -88,5 +88,13 @@ button:focus {
   .jumbotron {
     display: flex;
   }
+}
+
+.fixed-background {
+  background: url("../img/mac.png") no-repeat center/cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+  border: 1px solid;
 }
 /*# sourceMappingURL=style.css.map */
