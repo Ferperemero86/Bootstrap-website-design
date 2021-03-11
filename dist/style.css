@@ -106,4 +106,24 @@ button:focus {
     overflow: hidden;
   }
 }
+
+.connect i {
+  font-size: 2rem;
+}
+
+.connect i:not(:last-child) {
+  padding-right: 1rem;
+}
+
+@media (min-width: 48.0625rem) {
+  .connect i:not(:last-child) {
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 48.0625rem) {
+  .connect i {
+    font-size: 4rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

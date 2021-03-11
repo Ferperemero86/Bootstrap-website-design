@@ -1,4 +1,4 @@
-//Navigation
+// Navigation
 .navbar {
     background-color: hsl(0, 0, 98%);
     margin: 0 0.9375rem;
@@ -49,7 +49,7 @@
     }
 }
 
-//Slider
+// Slider
 #slides {
     text-align: center;
     width: 100%;
@@ -60,7 +60,7 @@
 
 }
 
-//Jumbotron
+// Jumbotron
 .jumbotron {
 
     @media (min-width: 992px) {
@@ -78,7 +78,7 @@
 }
 
 
-//Team Columns 
+// Team Columns 
 
 .team-columns {
 
@@ -89,6 +89,27 @@
                 height: 3.125rem;
                 overflow: hidden;
             }
+        }
+    }
+}
+
+// Connect
+
+.connect {
+
+    i {
+        font-size: 2rem;
+
+        &:not(:last-child) {
+            padding-right: 1rem;
+
+            @media (min-width: 48.0625rem) {
+                padding-right: 4rem;
+            }
+        }
+
+        @media (min-width: 48.0625rem) {
+            font-size: 4rem;
         }
     }
 }
