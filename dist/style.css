@@ -17,10 +17,13 @@ a {
   text-decoration: none;
 }
 
-hr {
-  width: 50%;
-  text-align: center;
-  border-color: #222;
+button:focus {
+  outline: none;
+}
+
+.padding {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .navbar {
